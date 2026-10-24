@@ -1,0 +1,5 @@
+1. If this database was like my Spotify wrapped, I’d say my “audio aura” is pretty high energy and super dancey, since a lot of the songs score high on energy/danceability. Feels like the vibe is party / hype.
+
+2. But honestly, it’s not that accurate. Just because the top 100 are all like that doesn’t mean that’s the only type of music I listen to. Sometimes I play chill stuff but they don’t hit top 100. Also, the way we average energy/valence/danceability is too basic, cuz it ignores like WHEN or HOW MUCH I actually listened.
+
+3. A better way would be to weight songs by play count or listening time. Also, moods change by time of day or even season, so maybe Spotify should factor in listening patterns instead of just the top tracks. That’d feel more real.
