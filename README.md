@@ -26,4 +26,3 @@ My solutions from Harvard University CS50 courses.
 
 ---
 
-All work is original.
