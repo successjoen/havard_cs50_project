@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            function checkcapital(content){
+                 const value = document.getElementById("correctcapital");
+
+
+                if (content.innerText != "Paris"){
+                    content.style.background = "red";
+                        value.innerText = "incorrect";
+                } else {
+                    content.style.background = "green";
+                        value.innerText = "correct" ;
+                }
+
+
+
+            }
+
+            function checksmart(){
+                const value = document.getElementById("correctanswer");
+                const valueinput = document.getElementById("inputanswer");
+
+                if (valueinput.value != "cheat"){
+                    valueinput.style.background = "red";
+                    value.innerText = "incorrect"
+                }else{
+                    valueinput.style.background = "green";
+                    value.innerText = "correct";
+                }
+            }
+        </script>
+<!-- -->
+    </head>  sete
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the capital of France ?</h3>
+                    <p id="correctcapital"></p>
+                        <button onclick="checkcapital(this)">Paris</button>
+                        <button onclick="checkcapital(this)">London</button>
+                        <button onclick="checkcapital(this)">Berlin</button>
+                        <button onclick="checkcapital(this)">Madrid</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+            cd     <h3>what not to do as a scholar</h3>
+                 <p id="correctanswer"></p>
+                 <form action="">
+                    <input type="text" id="inputanswer">
+                 </form>
+                 <button onclick="checksmart()">check</button>
+            </div>
+        </div>
+    </body>
+</html>
