@@ -1,4 +1,4 @@
-# Harvard CS50 Projects
+# Harvard CS50 projects
 
 My solutions from Harvard University CS50 courses.
 
