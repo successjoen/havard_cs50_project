@@ -5,7 +5,7 @@ My solutions from Harvard University CS50 courses.
 - CS50x – Introduction to Computer Science
 - CS50P – Introduction to Programming with Python
 
-No code was changed. Files are only arranged by week.
+
 
 ---
 
